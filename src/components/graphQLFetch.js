@@ -1,6 +1,6 @@
 export default async function graphQLFetch(query, variables = {}) {
     try {
-      const response = await fetch("http://localhost:4000/graphql", {
+      const response = await fetch("http://43.207.104.103:4000/graphql", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
